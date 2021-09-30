@@ -65,6 +65,31 @@
     <div class="bg-faded p-4 my-4">
       <hr class="divider">
       <h3 class="text-center text-lg text-uppercase my-0">
+         Localizing Objects with Self-Supervised Transformers and no Labels
+      </h3>
+      <h4 class="text-center text-lg my-0">
+         <i>O. Siméoni, G. Puy, H. V. Vo, S. Roburin, S. Gidaris, A. Bursuc, P. Pérez, R. Marlet and J. Ponce</i>, arxiv 2021
+      </h4>
+      <hr class="divider">
+      <div class="row">
+        <div class="col-lg-3" style="margin-top: 1.7cm;">
+          <!-- <a href="https://arxiv.org/abs/1709.04725" > -->
+          <img class="img-fluid mb-4 mb-lg-0" src="img/lost_2021.png" align="middle" alt="" style=" width: 100% ; "/>
+          <!-- </a> -->
+        </div>
+        <div class="col-lg-9">
+        Localizing objects in image collections without supervision can help to avoid expensive annotation campaigns. We propose a simple approach to this problem, that leverages the activation features of a vision transformer pre-trained in a self-supervised manner. Our method, LOST, does not require any external object proposal nor any exploration of the image collection; it operates on a single image. Yet, we outperform state-of-the-art object discovery methods by up to 8 CorLoc points on PASCAL VOC 2012. We also show that training a class-agnostic detector on the discovered objects boosts results by another 7 points. Moreover, we show promising results on the unsupervised object discovery task. The code to reproduce our results can be found at https://github.com/valeoai/LOST. 
+      <p> 
+        <a href="https://arxiv.org/pdf/2109.14279.pdf"> [pdf] </a>
+        <a href="https://github.com/valeoai/LOST"> [code] </a>
+      </p>
+      </div>
+      </div>
+    </div>
+
+    <div class="bg-faded p-4 my-4">
+      <hr class="divider">
+      <h3 class="text-center text-lg text-uppercase my-0">
          Robust image representation for classification, retrieval and object discovery
       </h3>
       <h4 class="text-center text-lg my-0">
@@ -81,7 +106,7 @@
 
           Neural network representations proved to be relevant for many computer vision tasks such as image classification, object detection, segmentation or instance-level image retrieval. A network is trained for one particular task and requires a large number of labeled data. We propose in this thesis solutions to extract the most information with the least supervision. First focusing on the classification task, we examine the active learning process in the context of deep learning and show that combining it to semi-supervised and unsupervised techniques boost greatly results. We then investigate the image retrieval task, and in particular we exploit the spatial localization informa- tion available “for free” in CNN feature maps. We first propose to represent an image by a collection of affine local features detected within activation maps, which are memory-efficient and robust enough to perform spatial matching. Then again extracting information from feature maps, we discover objects of interest in images of a dataset and gather their representations in a nearest neighbor graph. Using the centrality measure on the graph, we are able to construct a saliency map per image which focuses on the repeating objects and allows us to compute a global representation excluding clutter and background.
       <p> 
-        <a> [pdf] </a>
+        <a href="https://hal.inria.fr/tel-03082952/document"> [pdf] </a>
         <a> [slides] </a>
       </p>
       </div>
@@ -109,6 +134,7 @@
 
         <p> 
         <a href="https://arxiv.org/pdf/1911.08177.pdf"> [pdf] </a> 
+        <a href="https://github.com/osimeoni/RethinkingDeepActiveLearning"> [code] </a> 
         </p>
         </div>
         </div>
