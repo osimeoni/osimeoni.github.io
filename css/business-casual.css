@@ -42,12 +42,12 @@ h4 {
 
 a:link{
   color:#610b0b;
-/*   font-weight: bold; */
+  font-weight: lighter;
 }
 
 a:visited {
   color: #610b0b;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
 .tagline-upper {
@@ -118,4 +118,67 @@ hr.divider {
 
 .box {
   margin: 10px 10px 20px 5px;
+}
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.badge{
+  padding: .4em .4em;
+/*  font-size: 85%; */
+}
+
+.badge-primary{
+  background-color: #6aa84f;
+}
+
+.badge-pill{
+  border-radius: 0.2rem;
+}
+
+.btn{
+  padding: .1rem .3rem
+}
+
+/* ------- customize primary button color -------- */   
+.btn-primary{
+    @include button-variant(#c4c4cd, darken(#c4c4cd, 7.5%), darken(#c4c4cd, 10%), lighten(#c4c4cd,5%), lighten(#c4c4cd, 10%), darken(#c4c4cd,30%));
+}
+
+.btn-outline-primary{
+    @include button-outline-variant(#c4c4cd, #222222, lighten(#c4c4cd,5%), #c4c4cd);
+}
+
+/* .btn-primary{
+  background-color:#c4c4cd; 
+  border-color:#c4c4cd; 
+} */
+
+a:link{
+  color:#610b0b;
+  font-weight: lighter;
+}
+
+.card{
+  border: 0.4px;
+  background-color: #f2efeb;
+}
+.card-body{
+  padding: 0.3rem;
+}
+
+.crop {
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.crop img {
+    /*width: 400px;/*/
+    /*height: 300px;*/
+    margin: -5px 0 0 -10px;
 }
