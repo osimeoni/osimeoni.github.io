@@ -33,7 +33,6 @@
 
       <!-- Navigation -->
       <nav class="navbar sticky-top navbar-expand-lg navbar-static navbar-light bg-faded-nav py-lg-4">
-        <!-- <a class="navbar-brand text-uppercase" style="margin-left: 70px;" href="#"> Oriane Siméoni </a> -->
         <button class=  "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,13 +43,16 @@
                 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item px-lg-5">
+              <a class="nav-link text-uppercase" href="index.html#news">News</a>
+            </li>
+            <li class="nav-item px-lg-5">
               <a class="nav-link text-uppercase" href="index.html#papers">Papers</a>
             </li>
             <li class="nav-item px-lg-5">
               <a class="nav-link text-uppercase" href="cv.pdf">Resume</a>
             </li>
             <li class="nav-item px-lg-5">
-              <a class="nav-link text-uppercase" href="index.html#contact">Contact</a>
+              <a class="nav-link text-uppercase" href="index.html#presentation">Contact</a>
             </li>
             <li class="nav-item px-lg-5">
               <a class="nav-link text-uppercase" href="index.html#presentation">Presentation</a>
@@ -62,26 +64,27 @@
 
       <!-- Top block -->
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-md-center">
 
           <!-- Personal -->
-          <div class="col-sm bg-faded p-4 my-4" id="presentation">
+          <div class="col-sm-7 bg-faded py-4 my-4" id="presentation">
             <br>
-            <div class="row">
-              <div class="col-md-5 text-center">    
-                <img class="img-fluid img-thumbnail" style="max-width: 120px" src= "img/self.png" alt=""> 
-              </div>
-              <div class="col-md-6 text-center">
-                <br>
-                <h1> Oriane Siméoni</h1>
-                Research Scientist at <a href="https://ptrckprz.github.io/valeoai/">valeo.ai</a> <br>
-                e-mail: <a href="mailto:oriane.simeoni@valeo.com">oriane.simeoni [at] valeo.com</a>
-                <br>
+              <div class="container-float text-center" style="width: 80%; height: auto; margin: auto auto; position: relative;">
+                <div class="image-float">
+                  <img class="img-fluid img-thumbnail" style="float: left; max-width: 120px;" src= "img/self.png" alt=""> 
+                </div>
 
-                <a href="https://www.linkedin.com/in/oriane-sim%C3%A9oni-269877106/" class="fa fa-linkedin"></a>
-                <a href="https://github.com/osimeoni" class="fa fa-github"></a>
-                <a href="https://scholar.google.com/citations?user=PC7ELtEAAAAJ&hl=fr&oi=ao" class="fa"> <i class="material-icons" style="font-size:30px;vertical-align: bottom;">school</i></a>
-
+                <div class="text-float">
+                  <h1> Oriane Siméoni</h1>
+                  Research Scientist at <a href="https://ptrckprz.github.io/valeoai/">valeo.ai</a> <br>
+                  e-mail: <a href="mailto:oriane.simeoni@valeo.com">oriane.simeoni [at] valeo.com</a>
+                  <br>
+  
+                  <a href="https://www.linkedin.com/in/oriane-sim%C3%A9oni-269877106/" class="fa fa-linkedin"></a>
+                  <a href="https://github.com/osimeoni" class="fa fa-github"></a>
+                  <a href="https://scholar.google.com/citations?user=PC7ELtEAAAAJ&hl=fr&oi=ao" class="fa"> <i class="material-icons" style="font-size:30px;vertical-align: bottom;">school</i></a> 
+  
+                </div>
               </div>
             </div>  
           </div>
@@ -89,60 +92,77 @@
       </div>
 
       <!-- News -->
-      <div class="container" id="News">
-        <div class="col-sm bg-faded p-4 my-4" style="padding-left:20px">
-          <!-- style="font-size:14px" -->
-          <h2 class="text-center text-lg text-uppercase"> News </h2>
-          <br>
-          <div class="centered-div">
-            <ul class="list-unstyled">
-              <li><span class="badge badge-danger badge-pill" style="width:80px; height:20px">Now</span> 
-              We have opened positions at <a href="https://ptrckprz.github.io/valeoai/">valeo.ai</a>. Reach out for details!</li>
+      <div class="container" id="news">
+        <div class="row justify-content-md-center">
+          <div class="col-sm-10 justify-content-md-center bg-faded p-4 my-4">
+            <h2 class="text-center text-lg text-uppercase"> News </h2>
+            <br>
+            <div class="centered-div">
+              <ul class="list-unstyled">
+                <li><span class="badge badge-danger badge-pill badge-news">Now</span> 
+                We have opened positions at <a href="https://ptrckprz.github.io/valeoai/">valeo.ai</a>. Reach out for details!</li>
 
-              <!-- FOUND -->
-              <li><span class="badge badge-warning badge-pill" style="width:80px; height:20px">Mar. 2023</span> 
-                The <a href="https://github.com/valeoai/FOUND" style="font-weight:bold">code</a> and <a style="font-weight:bold" href="https://huggingface.co/spaces/osimeoni/FOUND">demo</a> of our paper <a href="https://arxiv.org/abs/2212.07834">FOUND</a> are out.</li>  
-              <li><span class="badge badge-primary badge-pill" style="width:80px; height:20px"> Feb 2023</span> 
-                Our tutorial about <i>unsupervised object localization</i> was accepted at CVPR 2023, <a href="https://osimeoni.github.io/object-localization-for-free/">check it out!</a>
-              </li>
-              <li><span class="badge badge-primary badge-pill" style="width:80px; height:20px"> Feb 2023</span> 
-                Our paper <a href="https://arxiv.org/abs/2212.07834">FOUND</a> accepted to CVPR 2023.
-              </li>
-              <!-- ECCV -->
-              <li><span class="badge badge-primary badge-pill" style="width:80px; height:20px"> June 2022</span> 
-                Two papers (incl. one oral) accepted to <a href="https://eccv2022.ecva.net/">ECCV 2022</a>
-                <a class="btn btn-primary" data-toggle="collapse" href="#eccv2022"><small>>></small></a>
-              </li>
-              <div class="collapse" id="eccv2022">
-                <div class="card card-body">
-                  <ul style="list-style-type:square;">
-                    <li style="font-size:13px"><i>Drive&Segment: Unsupervised Semantic Segmentation of Urban Scenes via Cross-modal Distillation</i>, <br> A. Vobecky, D. Hurych, O. Siméoni, S. Gidaris, A. Bursuc, P. Pérez and J. Sivic. <br> Oral ECCV 2022 <a href="https://vobecant.github.io/DriveAndSegment/">[page]</a><a href="https://arxiv.org/abs/2203.11160">[paper]</a><a href="https://github.com/vobecant/DriveAndSegment">[code]</a> </li>
+                <!-- FOUND -->
+                <li><span class="badge badge-warning badge-pill badge-news">Mar. 2023</span> 
+                  The <a href="https://github.com/valeoai/FOUND" style="font-weight:bold">code</a> and <a style="font-weight:bold" href="https://huggingface.co/spaces/osimeoni/FOUND">demo</a> of our paper <a href="https://arxiv.org/abs/2212.07834">FOUND</a> are out.</li>  
+                <li><span class="badge badge-primary badge-pill badge-news"> Feb. 2023</span> 
+                  Our tutorial about <i>unsupervised object localization</i> was accepted at CVPR 2023, <a href="https://osimeoni.github.io/object-localization-for-free/">check it out!</a>
+                </li>
+                <li><span class="badge badge-primary badge-pill badge-news"> Feb. 2023</span> 
+                  Our paper <a href="https://arxiv.org/abs/2212.07834">FOUND</a> accepted to CVPR 2023.
+                </li>
+                <!-- ECCV -->
+                <li><span class="badge badge-primary badge-pill badge-news"> June 2022</span> 
+                  Two papers (incl. one oral) accepted to <a href="https://eccv2022.ecva.net/">ECCV 2022</a>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#eccv2022"><small>>></small></a>
+                </li>
+                <div class="collapse" id="eccv2022">
+                  <div class="card card-body">
+                    <ul style="list-style-type:square;">
+                      <li style="font-size:13px"><i>Drive&Segment: Unsupervised Semantic Segmentation of Urban Scenes via Cross-modal Distillation</i>, 
+                        <br> A. Vobecky, D. Hurych, O. Siméoni, S. Gidaris, A. Bursuc, P. Pérez and J. Sivic. 
+                        <br> <i> ECCV 2022 </i> (oral)
+                        <a class="btn btn-primary" href="https://vobecant.github.io/DriveAndSegment/" role="button">page</a> 
+                        <a class="btn btn-primary" href="https://arxiv.org/abs/2203.11160" role="button">paper</a> 
+                        <a class="btn btn-primary" href="https://github.com/vobecant/DriveAndSegment" role="button">code</a> 
+                      </li>
 
-                    <li style="font-size:13px"><i>Active Learning Strategies for Weakly-Supervised Object Detection,</i> <br> Huy V. Vo, Oriane Siméoni, Spyros Gidaris, Andrei Bursuc, Patrick Pérez and Jean Ponce. <br> ECCV 2022 <a href="https://huyvvo.github.io/BiB.html">[page]</a><a href="https://arxiv.org/abs/2207.12112">[paper]</a><a href="https://github.com/huyvvo/BiB">[code]</a> </li>
-                  </ul>
+                      <li style="font-size:13px"><i>Active Learning Strategies for Weakly-Supervised Object Detection,</i> 
+                        <br> Huy V. Vo, Oriane Siméoni, Spyros Gidaris, Andrei Bursuc, Patrick Pérez and Jean Ponce. 
+                        <br> <i> ECCV 2022 </i>
+                        <a class="btn btn-primary" href="https://huyvvo.github.io/BiB.html" role="button">page</a> 
+                        <a class="btn btn-primary" href="https://arxiv.org/abs/2207.12112" role="button">paper</a>
+                        <a class="btn btn-primary" href="https://github.com/huyvvo/BiB" role="button">code</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
 
-              <li><span class="badge badge-secondary badge-pill" style="width:80px; height:20px">April 2022</span> 
-              I am an Emergency Reviewer at <a href="https://eccv2022.ecva.net/">ECCV 2022.</a></li>
-              <li><span class="badge badge-secondary badge-pill" style="width:80px; height:20px">March 2022</span> 
-              I am an Outstanding Reviewer at <a href="https://cvpr2022.thecvf.com/">CVPR 2022.</a></li>
-              <li><span class="badge badge-warning badge-pill" style="width:80px; height:20px">Nov. 2021</span> 
-              The code of our paper <a href="https://arxiv.org/abs/2109.14279">LOST</a> is out <a href="https://github.com/valeoai/LOST">here</a>.</li>
+                <li><span class="badge badge-secondary badge-pill badge-news">April 2022</span> 
+                I am an Emergency Reviewer at <a href="https://eccv2022.ecva.net/">ECCV 2022.</a></li>
+                <li><span class="badge badge-secondary badge-pill badge-news">March 2022</span> 
+                I am an Outstanding Reviewer at <a href="https://cvpr2022.thecvf.com/">CVPR 2022.</a></li>
+                <li><span class="badge badge-warning badge-pill badge-news">Nov. 2021</span> 
+                The code of our paper <a href="https://arxiv.org/abs/2109.14279">LOST</a> is out <a href="https://github.com/valeoai/LOST">here</a>.</li>
 
-            <ul class="list-unstyled">
-              <li><span class="badge badge-primary badge-pill" style="width:80px; height:20px"> Sept. 2021</span> 
-                Our paper <a href="https://arxiv.org/abs/2109.14279">LOST</a> accepted to <a href="https://eccv2022.ecva.net/">BMVC 2021.</a>
-                <a class="btn btn-primary" data-toggle="collapse" href="#bmvc2021"><small>>></small></a>
-              </li>
-              <div class="collapse" id="bmvc2021">
-                <div class="card card-body">
-                  <ul style="list-style-type:square;">
-                    <li style="font-size:13px"><i>Localizing Objects with Self-Supervised Transformers and no Labels</i>, <br> Oriane Siméoni, Gilles Puy, Huy V Vo, Simon Roburin, Spyros Gidaris, Andrei Bursuc, Patrick Pérez, Renaud Marlet, Jean Ponce. <br> BMVC 2021 <a href="https://vobecant.github.io/DriveAndSegment/">[page]</a><a href="https://arxiv.org/abs/2203.11160">[paper]</a><a href="https://github.com/vobecant/DriveAndSegment">[code]</a> </li>
-                  </ul>
+              <ul class="list-unstyled">
+                <li><span class="badge badge-primary badge-pill badge-news"> Sept. 2021</span> 
+                  Our paper <a href="https://arxiv.org/abs/2109.14279">LOST</a> accepted to <a href="https://eccv2022.ecva.net/">BMVC 2021.</a>
+                  <a class="btn btn-primary" data-toggle="collapse" href="#bmvc2021"><small>>></small></a>
+                </li>
+                <div class="collapse" id="bmvc2021">
+                  <div class="card card-body">
+                    <ul style="list-style-type:square;">
+                      <li style="font-size:13px"><i>Localizing Objects with Self-Supervised Transformers and no Labels</i>, <br> Oriane Siméoni, Gilles Puy, Huy V Vo, Simon Roburin, Spyros Gidaris, Andrei Bursuc, Patrick Pérez, Renaud Marlet, Jean Ponce. 
+                        <br> <i> BMVC 2021</i>
+                        <a class="btn btn-primary" href="https://arxiv.org/abs/2109.14279" role="button">paper</a>
+                        <a class="btn btn-primary" href="https://github.com/valeoai/LOST" role="button">code</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            </ul>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
