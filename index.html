@@ -32,30 +32,30 @@
       <!-- <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block"></div> -->
 
       <!-- Navigation -->
-      <nav class="navbar sticky-top navbar-expand-lg navbar-static navbar-light bg-faded-nav py-lg-4">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-static navbar-light bg-faded-nav py-lg-1">
         <button class=  "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item active px-lg-5">
-              <a class="nav-link text-uppercase" href="index.html">Home
+              <a class="nav-link text-uppercase no-decoration" href="index.html">Home
                 <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item px-lg-5">
-              <a class="nav-link text-uppercase" href="index.html#news">News</a>
+              <a class="nav-link text-uppercase no-decoration" href="index.html#news">News</a>
             </li>
             <li class="nav-item px-lg-5">
-              <a class="nav-link text-uppercase" href="index.html#papers">Papers</a>
+              <a class="nav-link text-uppercase no-decoration" href="index.html#papers">Papers</a>
             </li>
             <li class="nav-item px-lg-5">
-              <a class="nav-link text-uppercase" href="cv.pdf">Resume</a>
+              <a class="nav-link text-uppercase no-decoration" href="cv.pdf">Resume</a>
             </li>
             <li class="nav-item px-lg-5">
-              <a class="nav-link text-uppercase" href="index.html#presentation">Contact</a>
+              <a class="nav-link text-uppercase no-decoration" href="index.html#self">Contact</a>
             </li>
             <li class="nav-item px-lg-5">
-              <a class="nav-link text-uppercase" href="index.html#presentation">Presentation</a>
+              <a class="nav-link text-uppercase no-decoration" href="index.html#presentation">Presentation</a>
             </li>
           </ul>
         </div>
@@ -63,15 +63,15 @@
 
 
       <!-- Top block -->
-      <div class="container">
+      <div class="container" id="self">
         <div class="row justify-content-md-center">
 
           <!-- Personal -->
-          <div class="col-sm-7 bg-faded py-4 my-4" id="presentation">
+          <div class="col-sm-7 bg-faded py-4 my-4">
             <br>
-              <div class="container-float text-center" style="width: 80%; height: auto; margin: auto auto; position: relative;">
+              <div class="container-float text-center" style="width: 90%; height: auto; margin: auto auto; position: relative;">
                 <div class="image-float">
-                  <img class="img-fluid img-thumbnail" style="float: left; max-width: 120px;" src= "img/self.png" alt=""> 
+                  <img class="img-fluid img-thumbnail" style="float: left; max-width: 130px;" src= "img/self.png" alt=""> 
                 </div>
 
                 <div class="text-float">
@@ -80,8 +80,8 @@
                   e-mail: <a href="mailto:oriane.simeoni@valeo.com">oriane.simeoni [at] valeo.com</a>
                   <br>
   
-                  <a href="https://www.linkedin.com/in/oriane-sim%C3%A9oni-269877106/" class="fa fa-linkedin"></a>
-                  <a href="https://github.com/osimeoni" class="fa fa-github"></a>
+                  <a href="https://www.linkedin.com/in/oriane-sim%C3%A9oni-269877106/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> 
+                  <a href="https://github.com/osimeoni"><i class="fa fa-github" aria-hidden="true"></i></a>
                   <a href="https://scholar.google.com/citations?user=PC7ELtEAAAAJ&hl=fr&oi=ao" class="fa"> <i class="material-icons" style="font-size:30px;vertical-align: bottom;">school</i></a> 
   
                 </div>
@@ -96,24 +96,23 @@
         <div class="row justify-content-md-center">
           <div class="col-sm-10 justify-content-md-center bg-faded p-4 my-4">
             <h2 class="text-center text-lg text-uppercase"> News </h2>
-            <br>
             <div class="centered-div">
               <ul class="list-unstyled">
                 <li><span class="badge badge-danger badge-pill badge-news">Now</span> 
                 We have opened positions at <a href="https://ptrckprz.github.io/valeoai/">valeo.ai</a>. Reach out for details!</li>
 
                 <!-- FOUND -->
-                <li><span class="badge badge-warning badge-pill badge-news">Mar. 2023</span> 
-                  The <a href="https://github.com/valeoai/FOUND" style="font-weight:bold">code</a> and <a style="font-weight:bold" href="https://huggingface.co/spaces/osimeoni/FOUND">demo</a> of our paper <a href="https://arxiv.org/abs/2212.07834">FOUND</a> are out.</li>  
-                <li><span class="badge badge-primary badge-pill badge-news"> Feb. 2023</span> 
+                <li><span class="badge badge-code badge-pill badge-news">03/23</span> 
+                  The <a href="https://github.com/valeoai/FOUND">code</a> and <a href="https://huggingface.co/spaces/osimeoni/FOUND">demo</a> of our paper <a href="https://arxiv.org/abs/2212.07834">FOUND</a> are out.</li>  
+                <li><span class="badge badge-tutorial badge-pill badge-news"> 02/23</span> 
                   Our tutorial about <i>unsupervised object localization</i> was accepted at CVPR 2023, <a href="https://osimeoni.github.io/object-localization-for-free/">check it out!</a>
                 </li>
-                <li><span class="badge badge-primary badge-pill badge-news"> Feb. 2023</span> 
+                <li><span class="badge badge-paper badge-pill badge-news"> 02/23</span> 
                   Our paper <a href="https://arxiv.org/abs/2212.07834">FOUND</a> accepted to CVPR 2023.
                 </li>
                 <!-- ECCV -->
-                <li><span class="badge badge-primary badge-pill badge-news"> June 2022</span> 
-                  Two papers (incl. one oral) accepted to <a href="https://eccv2022.ecva.net/">ECCV 2022</a>
+                <li><span class="badge badge-paper badge-pill badge-news"> 06/22</span> 
+                  Two papers (incl. one oral) accepted to <a href="https://eccv2022.ecva.net/">ECCV 2022</a>.
                   <a class="btn btn-primary" data-toggle="collapse" href="#eccv2022"><small>>></small></a>
                 </li>
                 <div class="collapse" id="eccv2022">
@@ -138,16 +137,16 @@
                   </div>
                 </div>
 
-                <li><span class="badge badge-secondary badge-pill badge-news">April 2022</span> 
-                I am an Emergency Reviewer at <a href="https://eccv2022.ecva.net/">ECCV 2022.</a></li>
-                <li><span class="badge badge-secondary badge-pill badge-news">March 2022</span> 
-                I am an Outstanding Reviewer at <a href="https://cvpr2022.thecvf.com/">CVPR 2022.</a></li>
-                <li><span class="badge badge-warning badge-pill badge-news">Nov. 2021</span> 
+                <li><span class="badge badge-review badge-pill badge-news">04/22</span> 
+                I am an Emergency Reviewer at <a href="https://eccv2022.ecva.net/">ECCV 2022</a>.</li>
+                <li><span class="badge badge-review badge-pill badge-news">03/22</span> 
+                I am an Outstanding Reviewer at <a href="https://cvpr2022.thecvf.com/">CVPR 2022</a>.</li>
+                <li><span class="badge badge-code badge-pill badge-news">11/21</span> 
                 The code of our paper <a href="https://arxiv.org/abs/2109.14279">LOST</a> is out <a href="https://github.com/valeoai/LOST">here</a>.</li>
 
               <ul class="list-unstyled">
-                <li><span class="badge badge-primary badge-pill badge-news"> Sept. 2021</span> 
-                  Our paper <a href="https://arxiv.org/abs/2109.14279">LOST</a> accepted to <a href="https://eccv2022.ecva.net/">BMVC 2021.</a>
+                <li><span class="badge badge-paper badge-pill badge-news"> 09/21</span> 
+                  Our paper <a href="https://arxiv.org/abs/2109.14279">LOST</a> accepted to <a href="https://eccv2022.ecva.net/">BMVC 2021</a>.
                   <a class="btn btn-primary" data-toggle="collapse" href="#bmvc2021"><small>>></small></a>
                 </li>
                 <div class="collapse" id="bmvc2021">
@@ -167,17 +166,17 @@
         </div>
       </div>
 
-      <div class="container" id="papers">
+      <div class="container" id="papers" style="font-size:0.8rem;">
         <div class="col-sm bg-faded p-4 my-4">
-          <h2 class="text-center text-lg text-uppercase"> Papers and pre-prints </h2>
+          <h2 class="text-center text-lg text-uppercase"> Research </h2>
           <br>
           
           <!-- FOUND -->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail mb-2" style="width: 80%; max-height: 120px; object-fit: cover;" src= "https://github.com/valeoai/FOUND/raw/main/data/examples/found_examples.png" alt=""> 
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail mb-2" style="width: 90%; max-height: 120px; object-fit: cover;" src= "https://github.com/valeoai/FOUND/raw/main/data/examples/found_examples.png" alt=""> 
             </div>
-            <div class="col-md-8">    
+            <div class="col-md-8 no-padding-txt">    
               <a href="https://arxiv.org/abs/2203.11160">
               <h3>Unsupervised Object Localization: Observing the Background to Discover Objects</h3></a>
               Oriane Siméoni, Chloé Sekkat, Gilles Puy, Antonin Vobecky, Eloi Zablocki and Patrick Pérez
@@ -189,13 +188,14 @@
               <a class="btn btn-primary" href="https://huggingface.co/spaces/osimeoni/FOUND" role="button">demo</a>
             </div>
           </div>
-          
+          <br>
+
           <!-- Weakly AL -->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail mb-2" style="width: 60%; max-height: 120px; object-fit: cover;" src= "img/papers/weakly-al.png" alt=""> 
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail mb-2" style="width: 70%; max-height: 120px; object-fit: cover;" src= "img/papers/weakly-al.png" alt=""> 
             </div>
-            <div class="col-md-8">    
+            <div class="col-md-8 no-padding-txt">    
               <a href="https://arxiv.org/abs/2203.11160">
               <h3>Active Learning Strategies for Weakly-Supervised Object Detection</h3></a>
               Huy V. Vo, Oriane Siméoni, Spyros Gidaris, Andrei Bursuc, Patrick Pérez and Jean Ponce
@@ -206,13 +206,14 @@
               <a class="btn btn-primary" href="https://github.com/huyvvo/BiB" role="button">code</a>
             </div>
           </div>
+          <br>
 
           <!-- D&S -->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail mb-2" style="width: 70%; max-height: 120px; object-fit: cover;" src= "img/papers/2022_dns.gif" alt=""> 
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail mb-2" style="width: 80%; max-height: 120px; object-fit: cover;" src= "img/papers/2022_dns.gif" alt=""> 
             </div>
-            <div class="col-md-8">    
+            <div class="col-md-8 no-padding-txt">    
               <a href="https://arxiv.org/abs/2203.11160"><h3>Drive&Segment: Unsupervised Semantic Segmentation of Urban Scenes via Cross-modal Distillation</h3></a>
               Antonin Vobecky, David Hurych, Oriane Siméoni, Spyros Gidaris, Andrei Bursuc, Patrick Pérez and Josef Sivic
               <br> <i>ECCV</i>, 2022 (oral presentation)
@@ -222,14 +223,15 @@
               <a class="btn btn-primary" href="https://github.com/vobecant/DriveAndSegment" role="button">code</a>
             </div>
           </div>
+          <br>
 
           <!-- LOST -->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail mb-2" style="width: 35%; max-height: 120px; object-fit: cover;" src= "img/papers/LOST_ex0.png" alt=""> 
-              <img class="img-fluid img-thumbnail mb-2" style="width: 35%; max-height: 120px; object-fit: cover;" src= "img/papers/LOST_ex1.png" alt=""> 
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail mb-2" style="width: 45%; max-height: 120px; object-fit: cover;" src= "img/papers/LOST_ex0.png" alt=""> 
+              <img class="img-fluid img-thumbnail mb-2" style="width: 45%; max-height: 120px; object-fit: cover;" src= "img/papers/LOST_ex1.png" alt=""> 
             </div>
-            <div class="col-md-8">    
+            <div class="col-md-8 no-padding-txt">    
               <a href="https://arxiv.org/abs/2109.14279"><h3>Localizing Objects with Self-Supervised Transformers and no Labels</h3></a>
               Oriane Siméoni, Gilles Puy, Huy V Vo, Simon Roburin, Spyros Gidaris, Andrei Bursuc, Patrick Pérez, Renaud Marlet and Jean Ponce
               <br> <i>BMVC</i>, 2021
@@ -238,13 +240,14 @@
               <a class="btn btn-primary" href="https://github.com/valeoai/LOST" role="button">code</a>
             </div>
           </div>
+          <br>
 
           <!--PhD thesis-->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail mb-2" style=" width: 60%; max-height: 120px; object-fit: cover;" src= "img/papers/simeoni_2020.png" alt="">
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail mb-2" style=" width: 70%; max-height: 120px; object-fit: cover;" src= "img/papers/simeoni_2020.png" alt="">
             </div>
-            <div class="col-md-8">    
+            <div class="col-md-8 no-padding-txt">    
               <a href="https://hal.inria.fr/tel-03082952/document"><h3>Robust image representation for classification, retrieval and object discovery</h3></a>
               <span>Oriane Siméoni </span>
               <br> PhD thesis 
@@ -252,13 +255,14 @@
               <a class="btn btn-primary" href="https://hal.inria.fr/tel-03082952/document" role="button">thesis</a>
             </div>
           </div>
+          <br>
 
           <!--Active Learning-->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail mb-2" style=" width: 70%; max-height: 120px; object-fit: cover;" src= "img/papers/active.svg" alt=""> 
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail mb-2" style=" width: 80%; max-height: 120px; object-fit: cover;" src= "img/papers/active.svg" alt=""> 
             </div>
-            <div class="col-md-8">    
+            <div class="col-md-8 no-padding-txt">    
               <a href="https://arxiv.org/abs/1911.08177"><h3>Rethinking deep active learning: Using unlabeled data at model training</h3></a>
               Oriane Siméoni, Mateusz Budnik, Yannis Avrithis and Guillaume Gravier
               <br> <i>ICPR</i>, 2020 
@@ -267,13 +271,14 @@
               <a class="btn btn-primary" href="https://github.com/osimeoni/RethinkingDeepActiveLearning" role="button">code</a>
             </div>
           </div>
+          <br>
 
           <!--CVPR 2019-->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail mb-2" style=" width: 60%; max-height: 120px; object-fit: cover;" src= "img/papers/cvpr2019.jpg" alt="">  
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail mb-2" style=" width: 70%; max-height: 120px; object-fit: cover;" src= "img/papers/cvpr2019.jpg" alt="">  
             </div>
-            <div class="col-md-8">    
+            <div class="col-md-8 no-padding-txt">    
               <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Simeoni_Local_Features_and_Visual_Words_Emerge_in_Activations_CVPR_2019_paper.pdf"><h3>Local Features and Visual Words Emerge in Activations</h3></a>
               Oriane Siméoni, Yannis Avrithis and Ondrej Chum
               <br> <i>CVPR</i>, 2019 
@@ -282,13 +287,14 @@
               <a class="btn btn-primary" href="https://github.com/osimeoni/DSM" role="button">code</a>
             </div>
           </div>
+          <br>
 
           <!--MVA 2019-->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail mb-2" style="width: 50%; max-height: 120px; object-fit: cover;" src= "img/papers/wacv2017.png" alt=""> 
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail mb-2" style="width: 60%; max-height: 120px; object-fit: cover;" src= "img/papers/wacv2017.png" alt=""> 
             </div>
-            <div class="col-md-8">    
+            <div class="col-md-8 no-padding-txt">    
               <a href="https://avrithis.net/data/pub/pdf/journ/J28.mva18.disco.pdf"><h3>Graph-based particular object discovery</h3></a> 
               Oriane Siméoni, Ahmet Iscen, Giorgos Tolias, Yannis Avrithis and Ondrej Chum
               <br> <i>MVA</i>, 2019 
@@ -296,13 +302,14 @@
               <a class="btn btn-primary" href="https://avrithis.net/data/pub/pdf/journ/J28.mva18.disco.pdf" role="button">paper</a>
             </div>
           </div>
+          <br>
 
           <!--WACV 2018-->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail mb-2" style="width: 50%; max-height: 120px; object-fit: cover;" src= "img/papers/wacv2017.png" alt=""> 
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail mb-2" style="width: 60%; max-height: 120px; object-fit: cover;" src= "img/papers/wacv2017.png" alt=""> 
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 no-padding-txt">
               <a href="https://arxiv.org/abs/1709.04725"><h3>Unsupervised object discovery for instance recognition</h3></a>
               Oriane Siméoni, Ahmet Iscen, Giorgos Tolias, Yannis Avrithis and Ondrej Chum
               <br> <i>WACV</i>, 2018 
@@ -311,14 +318,15 @@
               <a class="btn btn-primary" href="https://www.youtube.com/watch?v=BkmOHwKUCTA" role="button">video</a>
             </div>
           </div>
+          <br>
           
           <!--Gene-->
           <div class="row">
-            <div class="col-md-4 text-center">    
-              <img class="img-fluid img-thumbnail" style="width: 60%; max-height: 120px; object-fit: cover;" src= "img/papers/genes2015.jpg" alt=""> 
+            <div class="col-md-4 text-center no-padding-img">    
+              <img class="img-fluid img-thumbnail" style="width: 70%; max-height: 120px; object-fit: cover;" src= "img/papers/genes2015.jpg" alt=""> 
              
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 no-padding-txt">
               <a href="https://arxiv.org/abs/1709.04725"><h3>Tracking global gene expression responses in T cell differentiation</h3></a>
               Oriane Siméoni, Vincent Piras, M. Tomita and Kumar Selvarajoo
               <br> <i>Gene</i>, 2015 

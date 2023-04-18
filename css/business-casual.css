@@ -6,35 +6,35 @@
 
 body {
   font-family: "Arial"; 
-  /* "Roboto", sans-serif; */
   background: url('../img/bg.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  font-size: 13px;
+  font-size:0.87rem;
+  color:#474b4b;
 }
 
 
 h1, h2, h3, h4, h5, h6, .text-heading {
-  font-family: "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: monospace; 
 }
 
 h1 {
   font-size: 1.3rem;
-  color: #3D3C3A;
+  color: #555151;
   font-weight: bold;
 }
 
 h2 {
  font-weight: bold;
- font-size:22px;
+ font-size:1.1rem;
 }
 
 h3 {
  font-size: 0.9rem;
  font-weight: bold;
- color: #575253;
+ color: #0c5460;
  margin-bottom: 0;
 }
 
@@ -44,17 +44,30 @@ h4 {
 }
 
 a:link{
-  color:#610b0b;
+  color: #0c5460;
   font-weight: lighter;
+  font-family: monospace; 
 }
 
-a:visited {
-  color: #610b0b;
-  font-weight: lighter;
+a, a:visited, a:hover, a:active {
+  color:#0c5460 
+  
+}
+.btn-primary {
+  color: #0c5460;
+  background-color: #e7e1e1; 
+  text-decoration: none;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.no-decoration {
+  text-decoration: none;
 }
 
 .text-float {
-  /* font-size: 20px; */
   padding-left: 10%;
   padding-right: 0%;
   padding-top: 5%;
@@ -127,6 +140,7 @@ hr.divider {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    font-style: normal;
 }
 
 .wraptocenter {
@@ -150,7 +164,6 @@ hr.divider {
 
 .badge{
   padding: .4em .4em;
-/*  font-size: 85%; */
 }
 
 .badge-primary{
@@ -175,16 +188,6 @@ hr.divider {
     @include button-outline-variant(#c4c4cd, #222222, lighten(#c4c4cd,5%), #c4c4cd);
 }
 
-/* .btn-primary{
-  background-color:#c4c4cd; 
-  border-color:#c4c4cd; 
-} */
-
-a:link{
-  color:#610b0b;
-  font-weight: lighter;
-}
-
 .card{
   border: 0.4px;
   background-color: #f2efeb;
@@ -200,8 +203,6 @@ a:link{
 }
 
 .crop img {
-    /*width: 400px;/*/
-    /*height: 300px;*/
     margin: -5px 0 0 -10px;
 }
 
@@ -210,14 +211,39 @@ a:link{
 }
 
 .centered-div{
-  width: 90%; /* Can be in percentage also. */
+  width: 95%; /* Can be in percentage also. */
   height: auto;
   margin: 0 auto;
-  padding: 10px;
+  padding: 2%;
   position: relative;
 }
 
 .badge-news{
-  width:60px; 
-  margin-right:10px;
+  width:40px; 
+  margin-right:1%;
+}
+
+.badge-code{
+  color: white;
+  background-color: rgb(225, 159, 79);
+}
+.badge-paper{
+  color: white;
+  background-color: rgb(117, 151, 170);
+}
+.badge-tutorial{
+  color: white;
+  background-color: rgb(124, 171, 94);
+}
+.badge-review{
+  color: white;
+  background-color: rgb(192, 181, 154);
+}
+
+.no-padding-img{
+  padding-right: 0%;
+}
+
+.no-padding-txt{
+  padding-left: 0%;
 }
