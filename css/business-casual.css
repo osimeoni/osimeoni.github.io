@@ -221,6 +221,7 @@ hr.divider {
 .badge-news{
   width:40px; 
   margin-right:1%;
+  background-color:#0c5460;
 }
 
 .badge-code{
@@ -237,7 +238,12 @@ hr.divider {
 }
 .badge-review{
   color: white;
-  background-color: rgb(192, 181, 154);
+  background-color: rgb(115, 114, 112);
+}
+.badge-any{
+  color: white;
+  background-color: rgb(158, 154, 143);
+  border-color:#0c5460;
 }
 
 .no-padding-img{
