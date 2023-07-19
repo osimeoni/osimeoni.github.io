@@ -30,9 +30,9 @@
   <body>
 
       <!-- <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block"></div> -->
-
       <!-- Navigation -->
       <nav class="navbar sticky-top navbar-expand-lg navbar-static navbar-light bg-faded-nav py-lg-1">
+        <!-- <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-faded-nav py-lg-1"> -->
         <button class=  "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -86,7 +86,18 @@
                 <a title="twitter" href="https://twitter.com/oriane_simeoni"> <i class="fa fa-twitter" style="font-size: 1.2rem;" aria-hidden="false"></i></a>
               </span>
               </div>
-              <!-- <a href="cv.pdf" title="resume"><i class="fa fa-file" style="padding-top: 10px; padding-left: 4px; color:#a0b3d3dd;" aria-hidden="true"></i></a> -->
+              <a href="cv.pdf" title="resume">
+              <span class="badge badge-secondary" style="margin-top: 8px; background-color: #a0b3d38a; padding-top: 5px; padding-bottom: 5px;">
+                <div style="display: flex; align-items: center; justify-content: center">
+                <div class="text">
+                <span style="font-size: 0.7rem; font-family: monospace; font-weight: bold; color:#474b4b">download <br> resume
+                </span>
+                </div>
+                <div class="image"><i class="fa fa-download" style="font-size: 1.2rem; color:#474b4b" aria-hidden="true"></i></span>
+                </div>
+              </div>
+              </span>
+            </a>
             </div>
             <br>
             <div class="justify-content-md-center" style="background-color: #a0b3d38a; position: relative; padding-top:10px">
@@ -192,9 +203,25 @@
         </div>
       </div>
       
-      <div class="container" id="talks">
+      <div class="container">
         <div class="row justify-content-md-center">
-          <div class="col-sm-6 justify-content-md-center bg-faded p-4 my-4">
+          <div class="col-sm-4 justify-content-md-center bg-faded p-4 my-4" id="activity"> 
+            <!-- style="background-color: rgb(173, 173, 237);"> -->
+           <h2 class="text-center text-lg text-uppercase"> Activities<i class="fa fa-share-alt" aria-hidden="true"></i></h2>
+           <br>
+           <div class="row justify-content-md-center">
+             <ul style="padding-left: 25px; padding-right: 10px;">
+               <li>[<mono><b>09/23</b></mono>] I am a <b>Logistics Chair</b> of <b>ICCV23</b>, <mono>Paris, France</mono>.
+               <li>[<mono><b>06/23</b></mono>] Organization of the <b>CVPR23 Tutorial</b> <a href="https://osimeoni.github.io/object-localization-for-free/">object localization for free</a>, <mono>Vancouver, Canada</mono>.
+               <li>[<mono><b>01/23</b></mono>] Organization of valeo.ai internal workshop <b>VAST</b>, <mono>Paris, France</mono>.
+               <li>Outstanding reviewer award CVPR22</li>
+               <li>Active <b>conference reviewer</b>: CVPR [<mono><b>2020-2023</b></mono>], ECCV [<mono><b>2022</b></mono>], ICCV [<mono><b>2023</b></mono>], NeurIPSW [<mono><b>2021</b></mono>]
+               <li>Active <b>journal reviewer</b>: TPAMI [<mono><b>2021-2023</b></mono>], IJCV [<mono><b>2022-2023</b></mono>], CVIU [<mono><b>2022-2023</b></mono>], IEEE RA [<mono><b>2020</b></mono>]
+
+             <ul>
+           </div>
+         </div>
+          <div class="col-sm-6 justify-content-md-center bg-faded p-4 my-4 vertical" id="talks" >
             <h2 class="text-center text-lg text-uppercase"> <i class="fa-regular fa-presentation-screen"></i> Talks<i class="fa fa-volume-up" aria-hidden="true"></i></h2>
             <br>
             <div class="row justify-content-md-center">
@@ -202,9 +229,9 @@
                 <li style=" margin-bottom: .3rem;"><span class="badge badge-pill badge-talk-future"> workshop </span> <mono><b>09/23</b></mono> - Upcoming talk @ECMLPKDD'23 <a href="https://sites.google.com/view/adapting-to-change-ecml-pkdd">Workshop "Adapting to Change"</a>, <mono>Turin, Italy </mono></li>
                 <li style=" margin-bottom: .3rem;"><span class="badge badge-pill badge-talk"> tutorial </span> <mono><b>06/23</b></mono> - About <mono>unsupervised object localization</mono> @<a href="https://cvpr2023.thecvf.com/">CVPR23</a> <a href="https://osimeoni.github.io/object-localization-for-free/">Tutorial</a><a href="https://www.youtube.com/watch?v=AxhjGR1WIv8&t=2354s" role="button">
                   <i class="fa fa-youtube-play" style="font-size: 1.7em; padding-left: 3px;" aria-hidden="true"></i></a><a href="material/simeoni_tutorial_cvpr23.pdf"><i class="fa fa-desktop" style="font-size: 1.2em; padding-left: 3px;" aria-hidden="true"></i></a>, <mono>Vancouver, Canada</mono></li>
-                <li style=" margin-bottom: .3rem;"><span class="badge badge-pill badge-talk"> seminar </span> <mono><b>03/22</b></mono> - About <mono>active learning strategies</mono> @<a href="https://www.confiance.ai/">Confiance</a>, <mono>online</mono></li>
+                <li style=" margin-bottom: .3rem;"><span class="badge badge-pill badge-talk"> seminar </span> <mono><b>03/22</b></mono> - About <mono>dataset construction & active learning</mono> @<a href="https://www.confiance.ai/">Confiance</a>, <mono>online</mono></li>
                 <li style=" margin-bottom: .3rem;"><span class="badge badge-pill badge-talk"> talk </span> <mono><b>01/22</b></mono> - About <mono>our paper <a href="https://github.com/valeoai/LOST">LOST</a></mono> to the <a href="https://imagine-lab.enpc.fr/">IMAGINE</a> team,  <mono>online</mono></li>
-                <!-- <li><span class="badge badge-pill badge-talk"> talk </span> <mono><b>06/23</b></mono> - About <mono>our paper <a href="https://github.com/valeoai/LOST">LOST</a></mono> to the <a href="TODO">Les Arts</a> team, <mono>online</mono></li> -->
+                <li style=" margin-bottom: .3rem;"><span class="badge badge-pill badge-talk"> talk </span> <mono><b>04/21</b></mono> - About <mono> object discovery & retrieval</mono> to the Vertigo team, <a href="https://www.cnam.fr/">CNAM</a>, <mono>online</mono></li>
                 <li style=" margin-bottom: .3rem;"><span class="badge badge-pill badge-talk"> talk </span> <mono><b>06/21</b></mono> - About <mono>active learning</mono> to the <a href="https://qarma.lis-lab.fr/">Quarma</a> team, <mono>online</mono></li>
                 <li style=" margin-bottom: .3rem;"><span class="badge badge-pill badge-talk"> defense </span> <mono><b>10/20</b></mono> - Defense of my <a href="https://hal.inria.fr/tel-03082952/document">PhD thesis</a></mono> <a href="materials/simeoni_phd_thesis.pdf"><i class="fa fa-desktop" style="font-size: 1.2em; padding-left: 3px;" aria-hidden="true"></i></a>, <mono>Rennes, France</mono></li>
                 <li style=" margin-bottom: .3rem;"><span class="badge badge-pill badge-talk"> talk </span> <mono><b>07/19</b></mono> - About <mono> CVPR19 paper <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Simeoni_Local_Features_and_Visual_Words_Emerge_in_Activations_CVPR_2019_paper.pdf">DSM</a></mono> @<a href="https://iplab.dmi.unict.it/icvss2019/">ICVSS</a> (<a href="https://iplab.dmi.unict.it/icvss2019/PresentationPrize">best pres. award</a>), <mono>Sicily, Italy</mono></li>
@@ -215,21 +242,7 @@
            <i style="font-size:0.7rem"> Material noted <i class="fa fa-desktop" style="font-size: 1.2em; padding-left: 3px;" aria-hidden="true"></i> are licensed under the Creative Commons BY-NC-SA 4.0 International License. They may be used for purposes that are not lucrative.
             </i>
           </div>
-          <div class="col-sm-5 justify-content-md-center bg-faded p-4 my-4 vertical" id="activity"> 
-             <!-- style="background-color: rgb(173, 173, 237);"> -->
-            <h2 class="text-center text-lg text-uppercase"> Activities<i class="fa fa-share-alt" aria-hidden="true"></i></h2>
-            <br>
-            <div class="row justify-content-md-center">
-              <ul style="padding-left: 25px; padding-right: 10px;">
-                <li>[<mono><b>06/23</b></mono>] Organization of the <b>CVPR23 Tutorial</b> <a href="https://osimeoni.github.io/object-localization-for-free/">object localization for free</a>, <mono>Vancouver, Canada</mono>.
-                <li>[<mono><b>01/23</b></mono>] Organization of valeo.ai internal workshop <b>VAST</b>, <mono>Paris, France</mono>.
-                <li>Outstanding reviewer award CVPR22</li>
-                <li>Active <b>conference reviewer</b>: CVPR [<mono><b>2020-2023</b></mono>], ECCV [<mono><b>2022</b></mono>], ICCV [<mono><b>2023</b></mono>], NeurIPSW [<mono><b>2021</b></mono>]
-                <li>Active <b>journal reviewer</b>: TPAMI [<mono><b>2021-2023</b></mono>], IJCV [<mono><b>2022-2023</b></mono>], CVIU [<mono><b>2022-2023</b></mono>], IEEE RA [<mono><b>2020</b></mono>]
 
-              <ul>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -247,7 +260,7 @@
               <a href="https://arxiv.org/abs/2212.07834">
               <h3>You Never Get a Second Chance To Make a Good First Impression: Seeding Active Learning for 3D Semantic Segmentation</h3></a>
               Nermin Samet, Oriane Siméoni, Gilles Puy, Georgy Ponimatkin, Renaud Marlet and Vincent Lepetit
-              <br> <i>arxiv</i>, 2023
+              <br> <i>ICCV</i>, 2023
               <br> 
               <a class="btn btn-primary" href="https://arxiv.org/abs/2304.11762" role="button">paper</a>
               <a class="btn btn-primary" href="https://github.com/nerminsamet/seedal" role="button">code</a>
@@ -438,7 +451,7 @@
     </div>
 
     <div class="container py-7 bg-orange" style="color: white">
-      <p> Last updated: 13th of July 2023 </p>
+      <p> Last updated: 19th of July 2023 </p>
       <p> This website is my own production styled using <a href="https://getbootstrap.com/" style="color: white">Bootstrap</a>, <a style="color: white" href="https://fontawesome.com/v4/icons/">Font Awesome</a> and <a style="color: white" href="https://fonts.google.com/">Google Fonts</a>.</p>
     </div>
 
